@@ -81,6 +81,11 @@ export const REMOTE_TOOLS: ReadonlySet<string> = new Set([
   "bounty_list",
   "bounty_get",
   "bounty_submissions",
+  // TaskMarket (Base): keyless reads of the fixed api.taskmarket.dev host, no wallet, no spend
+  "taskmarket_search",
+  "taskmarket_get",
+  "taskmarket_submissions",
+  "taskmarket_stats",
   // DeFi
   "alex_list_pools",
   "zest_list_assets",
